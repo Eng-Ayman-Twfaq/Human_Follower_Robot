@@ -37,6 +37,7 @@
 | محرك سيرفو SG90             | 1      | ![Servo](./images/R.png)                                              | لتدوير حساس الموجات            |
 | بطارية 9V + حامل            | 1      | ![Battery](./images/s-l400.jpg)                                       | مصدر طاقة متنقل                |
 | هيكل الروبوت                | 1      | ![Chassis](./images/4wd-smart-motor-robot-car-chasis-500x500.jpg)     | أي هيكل متوافق متاح            |
+|  عرض توضيحي                | #      | ![Chassis](./images/WhatsApp Video 2025-06-12 at 10.14.49 AM.mp4)     |                |
 
 ---
 
