@@ -80,9 +80,10 @@
   - `NewPing`
   - `Servo`
 
-### مثال برمجي أولي:
-
+💡 مثال برمجي أولي
 cpp
+Copy
+Edit
 #include <AFMotor.h>
 #include <NewPing.h>
 #include <Servo.h>
@@ -101,23 +102,23 @@ void setup() {
 void loop() {
   // الكود الرئيسي
 }
-
-
 🎯 طريقة التشغيل
-قم بتركيب المكونات وتوصيل الأسلاك.
+قم بتركيب المكونات وتوصيل الأسلاك حسب التعليمات.
 
-حمّل الكود إلى لوحة Arduino باستخدام Arduino IDE.
+افتح Arduino IDE وحمّل الكود إلى لوحة الأردوينو.
 
-ضع الروبوت على الأرض.
+ضع الروبوت على سطح مستوٍ.
 
-تحرك أمامه على مسافة 30-50 سم.
+تحرك أمامه على مسافة بين 30 - 50 سم.
 
-سيتتبعك الروبوت تلقائيًا.
+سيبدأ الروبوت بتتبعك تلقائيًا.
 
-للإنهاء، ابتعد عن نطاق الاستشعار.
+للخروج من التتبع، ابتعد عن نطاق الحساسات.
 
 📂 هيكل الملفات
-
+text
+Copy
+Edit
 Human-Follower-Robot/
 ├── Human_Follower_Robot.ino
 ├── README.md
@@ -130,8 +131,6 @@ Human-Follower-Robot/
     ├── AFMotor/
     ├── NewPing/
     └── Servo/
-
-
 ⚠️ استكشاف الأخطاء
 المشكلة	الحل
 الروبوت لا يتحرك	تأكد من توصيل المحركات جيدًا
@@ -139,18 +138,22 @@ Human-Follower-Robot/
 حركة غير دقيقة أو عشوائية	تحقق من شحن البطارية واستخدام هيكل متوازن
 
 👨‍💻 المطور
-<p align="center"> <img src="https://img.shields.io/badge/GitHub-Eng__Ayman__Twfaq-181717?style=for-the-badge&logo=github" alt="GitHub"/> <img src="https://img.shields.io/badge/Email-ayman.tawfaq.developes%2540gmail.com-D14836?style=for-the-badge&logo=gmail" alt="Email"/> <img src="https://img.shields.io/badge/WhatsApp-%252B967%2520770%2520883%2520615-25D366?style=for-the-badge&logo=whatsapp" alt="WhatsApp"/> </p>
+تم تطوير هذا المشروع بواسطة:
+
+<p align="center"> <a href="https://github.com/Eng-Ayman-Twfaq"> <img src="https://img.shields.io/badge/GitHub-Eng__Ayman__Twfaq-181717?style=for-the-badge&logo=github" alt="GitHub Profile"/> </a> <a href="mailto:ayman.tawfaq.developers@gmail.com"> <img src="https://img.shields.io/badge/Email-ayman.tawfaq.developers%40gmail.com-D14836?style=for-the-badge&logo=gmail" alt="Email"/> </a> <a href="https://wa.me/967770883615"> <img src="https://img.shields.io/badge/WhatsApp-%2B967770883615-25D366?style=for-the-badge&logo=whatsapp" alt="WhatsApp"/> </a> </p>
 🌟 دعم المشروع
 <p align="center"> <img src="https://img.shields.io/github/stars/Eng-Ayman-Twfaq/Human-Follower-Robot?style=social" alt="Stars"/> <img src="https://img.shields.io/github/followers/Eng-Ayman-Twfaq?style=social" alt="Followers"/> </p>
 إذا أعجبك المشروع:
 
-⭐ اضغط "Star" لدعم المشروع
+⭐ اضغط على زر Star لدعمه
 
 👁️ تابع المطور على GitHub
 
-📢 شارك المشروع مع زملائك المهتمين بالروبوتات
+📢 شاركه مع المهتمين بالروبوتات والمشاريع التعليمية
 
 🚀 مشاريع قادمة
-تابعنا على GitHub لمزيد من المشاريع المستقبلية 👇
+تابعنا على GitHub لمشاهدة المزيد من المشاريع المستقبلية 👇
+
+<p align="center"> <a href="https://github.com/Eng-Ayman-Twfaq"> <img src="https://img.shields.io/badge/VIEW_MORE_PROJECTS-181717?style=for-the-badge&logo=github" alt="More Projects"/> </a> </p>
 
 
