@@ -1,95 +1,228 @@
-🤖 روبوت تتبع الإنسان - مشروع أردوينو
-https://./images/433319f6-4cfd-435d-afbe-c8104b8f43f7.jfif
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روبوت تتبع الإنسان - مشروع أردوينو</title>
+    <style>
+        :root {
+            --primary: #2b3137;
+            --secondary: #586069;
+            --accent: #0366d6;
+            --bg: #ffffff;
+            --card-bg: #f6f8fa;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--primary);
+            background-color: var(--bg);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1, h2, h3 {
+            color: var(--primary);
+            margin-top: 24px;
+            margin-bottom: 16px;
+        }
+        
+        h1 {
+            font-size: 2em;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 0.3em;
+        }
+        
+        h2 {
+            font-size: 1.5em;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 0.3em;
+        }
+        
+        img {
+            max-width: 100%;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header img {
+            max-height: 300px;
+            object-fit: cover;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .feature-card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 6px;
+            border: 1px solid #e1e4e8;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        table, th, td {
+            border: 1px solid #dfe2e5;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: right;
+        }
+        
+        th {
+            background-color: var(--card-bg);
+        }
+        
+        tr:nth-child(even) {
+            background-color: var(--card-bg);
+        }
+        
+        .code-block {
+            background-color: #f6f8fa;
+            padding: 16px;
+            border-radius: 6px;
+            font-family: 'Courier New', Courier, monospace;
+            overflow-x: auto;
+        }
+        
+        .badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: var(--primary);
+            color: white;
+            border-radius: 20px;
+            font-size: 0.8em;
+            text-decoration: none;
+        }
+        
+        .wiring-diagram {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .file-structure {
+            background-color: var(--card-bg);
+            padding: 15px;
+            border-radius: 6px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .troubleshooting {
+            width: 100%;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #eaecef;
+        }
+        
+        @media (max-width: 768px) {
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🤖 روبوت تتبع الإنسان - مشروع أردوينو</h1>
+        <img src="./images/433319f6-4cfd-435d-afbe-c8104b8f43f7.jfif" alt="روبوت تتبع الإنسان">
+    </div>
 
-📝 نظرة عامة
-روبوت ذكي قادر على تتبع الأشخاص تلقائياً باستخدام تقنيات الاستشعار عن بعد. يتميز هذا المشروع بدقة الحركة وسهولة التصنيع، مما يجعله مثالياً لمشاريع الروبوتات التعليمية.
+    <section>
+        <h2>📝 نظرة عامة</h2>
+        <p>روبوت ذكي قادر على تتبع الأشخاص تلقائياً باستخدام تقنيات الاستشعار عن بعد. يتميز هذا المشروع بدقة الحركة وسهولة التصنيع، مما يجعله مثالياً لمشاريع الروبوتات التعليمية.</p>
+    </section>
 
-✨ المميزات الرئيسية
-🎯 نظام تتبع ذكي باستخدام حساسات متعددة
+    <section>
+        <h2>✨ المميزات الرئيسية</h2>
+        <div class="features">
+            <div class="feature-card">
+                <h3>🎯 نظام تتبع ذكي</h3>
+                <p>يستخدم حساسات متعددة لتتبع الحركة بدقة</p>
+            </div>
+            <div class="feature-card">
+                <h3>⚙️ تحكم دقيق</h3>
+                <p>أربع محركات للحركة في جميع الاتجاهات</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔍 مسح محيطي</h3>
+                <p>زاوية مسح 180 درجة لتحديد الاتجاه</p>
+            </div>
+        </div>
+    </section>
 
-⚙️ تحكم دقيق في الحركة بأربع محركات
+    <section>
+        <h2>📦 قائمة المكونات</h2>
+        <table>
+            <tr>
+                <th>المكون</th>
+                <th>الكمية</th>
+                <th>الصورة</th>
+                <th>ملاحظات</th>
+            </tr>
+            <tr>
+                <td>أردوينو أونو</td>
+                <td>1</td>
+                <td><img src="./images/1.jpg" alt="أردوينو أونو" style="max-height: 100px;"></td>
+                <td>لوحة التحكم الأساسية</td>
+            </tr>
+            <tr>
+                <td>درايفر المحركات L293D</td>
+                <td>1</td>
+                <td><img src="./images/AI0031.2-300x300.jpg" alt="درايفر المحركات" style="max-height: 100px;"></td>
+                <td>لتحكم في 4 محركات</td>
+            </tr>
+            <!-- باقي الصفوف بنفس النمط -->
+        </table>
+    </section>
 
-🔍 مسح محيطي بزاوية 180 درجة
+    <section>
+        <h2>🔌 دائرة التوصيلات</h2>
+        <div class="wiring-diagram">
+            <img src="./images/f738f3a3-289e-4a0e-a267-ced5d8d162fd.jfif" alt="دائرة التوصيلات">
+        </div>
+    </section>
 
-💰 تصميم متوافق مع مكونات متوفرة بسهولة
-
-📦 قائمة المكونات
-المكون	الكمية	الصورة	ملاحظات
-أردوينو أونو	1	https://./images/1.jpg	لوحة التحكم الأساسية
-درايفر المحركات L293D	1	https://./images/AI0031.2-300x300.jpg	لتحكم في 4 محركات
-حساس المسافة HC-SR04	1	https://./images/hc-sr04-ultrasonic-wave-distance-sensor.jpg	لقياس المسافات
-حساسات الأشعة تحت الحمراء	2	https://./images/ir-sensor-module-imported-500x500-1000x1000.jpg	لكشف الاتجاهات
-محركات DC مع عجلات	4	https://./images/336.2.jpg	قطر العجلات 6-8 سم
-محرك سيرفو SG90	1	https://./images/R.png	لتحريك الحساس
-بطارية 9V	1	https://./images/s-l400.jpg	مع حامل بطارية
-هيكل الروبوت	1	https://./images/4wd-smart-motor-robot-car-chasis-500x500.jpg	يمكن استخدام أي هيكل متوفر
-🔌 دائرة التوصيلات
-https://./images/f738f3a3-289e-4a0e-a267-ced5d8d162fd.jfif
-
-التوصيلات التفصيلية:
-حساس الموجات فوق الصوتية (HC-SR04)
-
-VCC → 5V
-
-GND → GND
-
-TRIG → A1
-
-ECHO → A0
-
-حساسات IR
-
-الحساس الأيمن:
-
-VCC → 5V
-
-GND → GND
-
-OUT → A2
-
-الحساس الأيسر:
-
-VCC → 5V
-
-GND → GND
-
-OUT → A3
-
-المحركات
-
-المحرك الأمامي الأيمن → M1
-
-المحرك الأمامي الأيسر → M2
-
-المحرك الخلفي الأيمن → M3
-
-المحرك الخلفي الأيسر → M4
-
-محرك السيرفو
-
-الإشارة → D10
-
-VCC → 5V
-
-GND → GND
-
-💻 البرمجة والإعداد
-المتطلبات المسبقة
-Arduino IDE
-
-المكتبات المطلوبة:
-
-AFMotor Library
-
-NewPing Library
-
-Servo Library
-
-خطوات التنفيذ
-arduino
-#include <AFMotor.h>
-#include <NewPing.h>
-#include <Servo.h>
+    <section>
+        <h2>💻 البرمجة والإعداد</h2>
+        <h3>المتطلبات المسبقة</h3>
+        <ul>
+            <li>تثبيت Arduino IDE</li>
+            <li>تنزيل المكتبات المطلوبة</li>
+        </ul>
+        
+        <h3>كود البرمجة</h3>
+        <div class="code-block">
+            <pre>#include &lt;AFMotor.h&gt;
+#include &lt;NewPing.h&gt;
+#include &lt;Servo.h&gt;
 
 #define TRIGGER_PIN A1
 #define ECHO_PIN A0
@@ -104,19 +237,14 @@ void setup() {
 
 void loop() {
   // الكود الرئيسي
-}
-🎯 طريقة التشغيل
-قم بتشغيل الروبوت
+}</pre>
+        </div>
+    </section>
 
-تحرك أمام الروبوت على مسافة 30-50 سم
-
-سيبدأ الروبوت في تتبعك تلقائياً
-
-لوقف الروبوت، ابتعد عن نطاق الحساسات
-
-📂 هيكل الملفات
-text
-Human-Follower-Robot/
+    <section>
+        <h2>📂 هيكل الملفات</h2>
+        <div class="file-structure">
+            <pre>Human-Follower-Robot/
 ├── Human_Follower_Robot.ino
 ├── README.md
 ├── images/
@@ -127,32 +255,51 @@ Human-Follower-Robot/
 └── libraries/
     ├── AFMotor/
     ├── NewPing/
-    └── Servo/
-⚠️ استكشاف الأخطاء
-المشكلة	الحل
-الروبوت لا يتحرك	تأكد من توصيل المحركات بشكل صحيح
-الحساسات لا تعمل	تحقق من توصيلات الطاقة والإشارة
-حركة غير منتظمة	تأكد من شحن البطارية بالكامل
-👨💻 حقوق البرمجة والتطوير
-تم تطوير وبرمجة هذا المشروع بواسطة:
+    └── Servo/</pre>
+        </div>
+    </section>
 
-https://img.shields.io/badge/GitHub-Eng__Ayman__Twfaq-181717?style=for-the-badge&logo=github
-https://img.shields.io/badge/Email-ayman.tawfaq.developes%2540gmail.com-D14836?style=for-the-badge&logo=gmail
-https://img.shields.io/badge/WhatsApp-%252B967%2520770%2520883%2520615-25D366?style=for-the-badge&logo=whatsapp
+    <section>
+        <h2>⚠️ استكشاف الأخطاء</h2>
+        <table class="troubleshooting">
+            <tr>
+                <th>المشكلة</th>
+                <th>الحل</th>
+            </tr>
+            <tr>
+                <td>الروبوت لا يتحرك</td>
+                <td>تأكد من توصيل المحركات بشكل صحيح</td>
+            </tr>
+            <tr>
+                <td>الحساسات لا تعمل</td>
+                <td>تحقق من توصيلات الطاقة والإشارة</td>
+            </tr>
+        </table>
+    </section>
 
-🌟 دعم المشروع
-https://img.shields.io/github/stars/Eng-Ayman-Twfaq/Human-Follower-Robot?style=social
-https://img.shields.io/github/followers/Eng-Ayman-Twfaq?style=social
+    <section>
+        <h2>👨💻 حقوق البرمجة والتطوير</h2>
+        <p>تم تطوير وبرمجة هذا المشروع بواسطة:</p>
+        <div class="badges">
+            <a href="https://github.com/Eng-Ayman-Twfaq" class="badge">GitHub: Eng-Ayman-Twfaq</a>
+            <a href="mailto:ayman.tawfaq.developes@gmail.com" class="badge">Email</a>
+            <a href="https://wa.me/967770883615" class="badge">WhatsApp</a>
+        </div>
+    </section>
 
-إذا أعجبك المشروع:
+    <section>
+        <h2>🌟 دعم المشروع</h2>
+        <p>إذا أعجبك المشروع:</p>
+        <ol>
+            <li>⭐ اضغط زر Star في أعلى الصفحة على GitHub</li>
+            <li>👁️ متابعة حسابنا لمشاريع جديدة</li>
+            <li>💬 مشاركة المشروع مع الأصدقاء</li>
+        </ol>
+    </section>
 
-⭐ اضغط زر Star في أعلى الصفحة
-
-👁️ تابع حسابنا على GitHub
-
-💬 شارك المشروع مع الأصدقاء
-
-🚀 مشاريع قادمة
-تابعنا لمشاهدة مشاريعنا الجديدة:
-
-https://img.shields.io/badge/VIEW_MORE_PROJECTS-181717?style=for-the-badge&logo=github
+    <div class="footer">
+        <p>🚀 تابعنا لمشاهدة مشاريعنا الجديدة</p>
+        <a href="https://github.com/Eng-Ayman-Twfaq" class="badge">عرض الملف الشخصي على GitHub</a>
+    </div>
+</body>
+</html>
