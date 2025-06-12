@@ -82,7 +82,7 @@
 
 ### مثال برمجي أولي:
 
-```cpp
+cpp
 #include <AFMotor.h>
 #include <NewPing.h>
 #include <Servo.h>
